@@ -1,0 +1,196 @@
+
+* { margin:0;}
+
+
+#header{
+    padding: 60px;
+  text-align: center;
+  background: #889eff;
+  color: white;
+  font-size: 30px;
+
+}
+body{
+    background: #ffbe99;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+/* LES ARTICLES */
+#resetTest{
+    padding-bottom: 100px;
+}
+
+#box1 {
+    display: flex;
+    width: 580px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+
+
+}
+
+
+
+.buttons_mag{
+    width: 140px;
+    height: 26px;
+    margin: auto;
+    position: relative;
+
+}
+
+.objets{
+    width: 160px;
+    margin: auto;
+    font-weight: bold;
+}
+
+#petiteRation {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+
+#grosseRation {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-left: none;
+}
+
+#epee{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-right: none;
+}
+
+#shield {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-left: none;
+}
+
+#flask {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-right: none;
+}
+
+#bag {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-left: none;
+}
+
+#total {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    padding: auto;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-right: none;
+}
+
+#calculate {
+    height: 30px;
+    width: 80px;
+    margin-right: 0px;
+
+}
+
+#table_rase {
+    height: 30px;
+    width: 80px;
+    margin-right: 0px;
+}
+
+#stock_box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+
+#stock_announce {
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    background: #fffeb4;
+    text-align: center;
+    padding: 15px;
+    
+}
+#testFooter {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    border-right: none;
+
+}
+
+
+#lastP{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#container_right {
+    right: 0;
+    position: fixed;
+    top: 50%;
+    transform: translate(0px, -50%);
+    background: #000000;
+    height: 300px;
+    width: 100px;
+}
+
+#container_left {
+    left: 0;
+    position: fixed;
+    top: 50%;
+    transform: translate(0px, -50%);
+    background: #000000;
+    height: 300px;
+    width: 100px;
+}
+

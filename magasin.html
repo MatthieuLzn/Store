@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aux délices d'Alice</title>
+    <link rel="stylesheet" href="magasin_style.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Aux délices d'Alice</h1>
+    </div>
+
+    <form id="resetTest">
+        <div id="box1">
+            <div id="product_name">
+                <div id="petiteRation">
+                    <p class="objets">Petite ration 2$</p>
+                    <input class="buttons_mag" type="number" id="petiteRation_button"
+                         onchange="getTotal();rationNumber();warning();" value="0"
+                        max="15" min="0">
+                    <p id="subTotal_petiteRation">0$</p>
+                </div>
+                <div id="grosseRation">
+                    <p class="objets">Grosse ration 8$</p>
+                    <input class="buttons_mag" type="number" id="grosseRation_button"
+                        onkeypress="event.preventDefault();" onchange="getTotal(); warning();" value="0" max="15"
+                        min="0">
+                    <p id="subTotal_grosseRation">0$</p>
+                </div>
+                <div id="epee">
+                    <p class="objets">Epée 20$</p>
+                    <input class="buttons_mag" type="number" id="epee_button" onkeypress="event.preventDefault();"
+                        onchange="getTotal(); warning();" value="0" max="15" min="0">
+                    <p id="subTotal_epee">0$</p>
+                </div>
+                <div id="shield">
+                    <p class="objets">Bouclier 15$</p>
+                    <input class="buttons_mag" type="number" id="shield_button" onkeypress="event.preventDefault();"
+                        onchange="getTotal(); warning();" value="0" max="15" min="0">
+                    <p id="subTotal_shield">0$</p>
+                </div>
+                <div id="flask">
+                    <p class="objets">Potion 5$</p>
+                    <input class="buttons_mag" type="number" id="flask_button" onkeypress="event.preventDefault();"
+                        onchange="getTotal(); warning();" value="0" max="15" min="0">
+                    <p id="subTotal_flask">0$</p>
+                </div>
+                <div id="bag">
+                    <p class="objets">Sac de toile 1$</p>
+                    <input class="buttons_mag" type="number" id="bag_button" onkeypress="event.preventDefault();"
+                        onclick="getTotal(); warning();" value="0" min="0">
+                    <p id="subTotal_bag">0$</p>
+                </div>
+                <div id="total">
+                    <p>Total : </p>
+                    <p id="total_value"> 0$ </p>
+                    <input type="button" id="calculate" onclick="getTotal(); rationNumber(); warning();"
+                        value="Calculer">
+                    <input type="button" id="table_rase" value="Vider" onclick="getReset()">
+                </div>
+                <div id="stock_box">
+                    <input type="range" id="stock" name="volume" min="0" max="15" onclick="stockRandom();">
+                    <p id="stock_announce">0 / 15</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </form>
+    <div id="container_right">
+        
+    </div>
+    <div id="container_left">
+        
+    </div>
+    
+
+
+    <footer>
+    </footer>
+
+
+
+    <script type="text/javascript" src="magasin_script.js">
+
+    </script>
+</body>
+
+</html>
